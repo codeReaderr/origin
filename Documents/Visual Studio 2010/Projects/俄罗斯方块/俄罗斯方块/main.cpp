@@ -2,7 +2,7 @@
 #include <iostream>
 #include <windows.h>
 int main()
-{
+{	
     initgraph(400, 482);   // 创建绘图窗口，大小为 242*482 像素，横向20个方格，纵向40个方格
 /*	HWND hwnd = GetHWnd(); // 全屏代码
 	SetWindowLong(hwnd , GWL_STYLE , GetWindowLong(hwnd, GWL_STYLE) - WS_CAPTION);
